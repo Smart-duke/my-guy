@@ -1,0 +1,30 @@
+.testimonial{
+    width:100%;
+    padding: 30px 50px;
+    display: flex;
+    gap: 30px;
+
+}
+.testimonial-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.testi{
+    font-size: 1.2rem;
+    width: 80%;
+}
+.testifier{
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.post{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.testimonial-text h3{
+    font-size: 3rem;
+    color: #4E5AC3;
+}
+

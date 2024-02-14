@@ -1,0 +1,48 @@
+.explore{
+    width: 100%;
+    padding: 30px 50px;
+}
+.explore .heading{
+    text-align: center;
+}
+.explore h2{
+    color: #4E5AC3;
+    font-size: 3rem;
+    width: 75%;
+    margin: auto;
+
+}
+.explore ul{
+    padding: 0;
+    margin-left: 20px;
+}
+.explore ul li{
+    list-style-image: url(../assets/checkmark.png);
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+.explore-btn{
+    background: #050D56;
+    color: #fff;
+    padding: 7px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    border : 3px solid #050D56;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.bottom{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.btm-img{
+    position: absolute;
+    left: 35%;
+    top: -90px;
+}
+

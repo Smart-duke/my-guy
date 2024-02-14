@@ -1,0 +1,44 @@
+.choose-us{
+    text-align: center;
+    width: 100%;
+    padding: 0 50px 20px;
+}
+.choose-us h2{
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+.choose-us h2 span {
+    color: #4E5AC3;
+}
+.choose-us p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 60%;
+    margin: auto;margin-bottom: 30px;
+
+}
+.careers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.career-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.career-box img{
+    width: 60%;
+}
+.career-btn{
+    background: #050D56;
+    color: #fff;
+    padding: 7px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    border : 3px solid #050D56;
+    border-radius: 10px;
+}
