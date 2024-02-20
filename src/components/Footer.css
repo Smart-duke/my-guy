@@ -60,5 +60,7 @@
     flex-direction: column;
     align-items: flex-start;
   }
-    
+    .footer-top{
+        justify-content: flex-start;
+    }
 }
