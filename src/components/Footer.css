@@ -73,4 +73,7 @@
     .payments{
         justify-content: space-between;
     }
+    .socials{
+        text-align: right;
+    }
 }
