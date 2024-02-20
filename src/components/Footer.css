@@ -54,3 +54,11 @@
     gap: 30px;
     
 }
+
+@media  screen and (max-width:740px) {
+  .footer-bottom{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    
+}
