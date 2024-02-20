@@ -62,5 +62,9 @@
   }
     .footer-top{
         justify-content: flex-start;
+        padding: 10px 20px;
+    }
+    .payments{
+        justify-content: space-between;
     }
 }
