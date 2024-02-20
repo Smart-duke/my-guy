@@ -42,3 +42,27 @@
     border : 3px solid #050D56;
     border-radius: 10px;
 }
+
+@media screen and (max-width:900px){
+
+    .choose-us h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}  
+.choose-us p{
+    font-size: 0.7rem;
+    width: 100%;
+}  
+}
+
+@media screen and (max-width:740px){
+    .careers{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .career-btn{
+        display: block;
+        width: 150px;
+    }
+    
+}

@@ -1,17 +1,21 @@
 import { Link, NavLink } from "react-router-dom";
-// import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavBar.css";
 import logoImg from "../assets/image.png";
 import settingsImg from "../assets/Vector.png";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [navDrop, setNavDrop] = useState(false);
+  const handleDrop = () => setNavDrop(!navDrop);
+
   return (
-    <nav className="header">
+    <nav className="headerr">
       <Link to="/">
         <img src={logoImg} alt="logo" className="logo-img" />
       </Link>
       <div className="nav-container">
-        <ul className="nav-list">
+        <ul className={navDrop ? "nav-list navshow" : "nav-list"}>
           <li>
             <Link to={"/"}>Home</Link>
           </li>
@@ -37,6 +41,13 @@ const NavBar = () => {
         <NavLink to="/">
           <button className="join-btn">Join</button>
         </NavLink>
+      </div>
+      <div className="hamburger" onClick={handleDrop}>
+        {navDrop ? (
+          <FaTimes size={20} style={{ color: "#fff" }} />
+        ) : (
+          <FaBars size={20} style={{ color: "#fff" }} />
+        )}
       </div>
     </nav>
   );

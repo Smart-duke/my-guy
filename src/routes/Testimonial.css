@@ -9,8 +9,9 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    justify-content: center;
 }
-.testi{
+.testimony{
     font-size: 1.2rem;
     width: 80%;
 }
@@ -28,3 +29,38 @@
     color: #4E5AC3;
 }
 
+@media screen and (max-width:740px) {
+    .testimonial{
+        padding: 10px 30px;
+    }
+    .ceo-img{
+        width: 150px;
+        height: 150px;
+    }
+    .testimonial-text{
+        gap: 5px;
+    }
+    .testimonial-text h3{
+        font-size: 1rem;
+    }
+    .testimony{
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    .testifier{
+        font-size: 0.8rem;
+        margin: 0;
+    }
+   .post{
+    font-size: 0.7rem;
+   }
+   .star{
+    margin: 0;
+   }
+   .down{
+    display: flex;
+    flex-direction: column;
+
+   }
+    
+}

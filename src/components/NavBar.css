@@ -1,4 +1,4 @@
-nav{
+.headerr{
     width: 100%;
     max-width: 1400px;
     height: 70px;
@@ -49,4 +49,34 @@ nav{
 
 .set-img{
     margin-top: 10px;
+}
+.hamburger{
+    display: none;
+}
+@media screen and (max-width:1040px) {
+    .headerr{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0;
+        left: -120%;
+        z-index: -5;
+        transition: 0.3s;
+    }
+    .navshow{
+        left: 0;
+    }
+    .nav-list li{
+        padding: 1rem 0;
+    }
+    .nav-list li a{
+        font-size: 1.5rem;
+    }
+    .hamburger{
+        display: initial;
+    }
 }
