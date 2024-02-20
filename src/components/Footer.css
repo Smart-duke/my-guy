@@ -67,6 +67,7 @@
     .footer-top{
         justify-content: flex-start;
         padding: 10px 20px;
+        flex-direction: column;
     }
     .payments{
         justify-content: space-between;
