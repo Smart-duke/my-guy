@@ -75,5 +75,6 @@
     }
     .socials{
         text-align: right;
+        align-items: flex-start;
     }
 }
