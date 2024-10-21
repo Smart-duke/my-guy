@@ -18,12 +18,12 @@ const Hero1 = () => {
         </p>
       </div>
       <div className="search">
-        <form >
-        <input
-          type="search"
-          placeholder="What kind of service are you searching for?"
-        />
-         <button type="submit">Search</button>
+        <form>
+          <input
+            type="search"
+            placeholder="What kind of service are you searching for?"
+          />
+          <button type="submit">Search</button>
         </form>
         <p>
           In-demand: Metalworking Plumbing Painting Tailoring Washing services
@@ -52,9 +52,8 @@ const Hero1 = () => {
         <div className="google"></div>
       </div>
       <Link to="https://mailchi.mp/d4f765590832/smatrrt" target="_Blank">
-      <button className="wait-btn">Join Our Waitlist</button>
+        <button className="wait-btn">Join Our Waitlist</button>
       </Link>
-      
     </div>
   );
 };
